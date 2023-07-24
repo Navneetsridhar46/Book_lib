@@ -8,14 +8,22 @@
     
 </head>
 <body style="background-image: url(./images/bookshelves-background-generative-ai-free-photo.jpeg); background-size: contain; ">
-    <h1 style="color: rgba(245, 245, 245, 0.806);" class="text-center mt-4">Add Book</h1>
-    <form action="">
-    <div style="background-color: rgba(240, 248, 255, 0.064);border-width: 5px;border-color: blanchedalmond;" class="text-center container form-control p-4 mt-3 w-50">
-        <input style="width: 500px;" type="text" name="" id="b1" placeholder="book name"><br><br>
-        <input style="width: 500px;" type="text" name="" id="a1" placeholder="author name"><br><br>
-        <textarea class="p2" name="" id="d1" cols="65" rows="4" placeholder="description"></textarea><br><br>
-        <button class="btn btn-primary" type="button" onclick="AddDetails()">Add Details</button><br><br>
-        <a href="./search.html"><button class="btn btn-dark" type="button" onclick="">Search Book</button></a>
+    <div class="container">
+        <h1 style="color: rgba(245, 245, 245, 0.806);" class="text-center mt-4">Add Book</h1>
+        <form action="">
+        <div style="background-color: rgba(240, 248, 255, 0.064);border-width: 5px;border-color: blanchedalmond;" class="text-center container p-4 mt-3">
+            <div class="form-group">
+            <input class="form-control" type="text" name="" id="b1" placeholder="book name"><br>
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="text" name="" id="a1" placeholder="author name"><br>
+        </div>
+        <div class="form-group">
+            <textarea class="p2 form-control" name="" id="d1" cols="65" rows="4" placeholder="description"></textarea><br>
+        </div>
+            <button class="btn btn-primary" type="button" onclick="AddDetails()">Add Details</button><br><br>
+            <a href="./search.html"><button class="btn btn-dark" type="button" onclick="">Search Book</button></a>
+        </div>
     </div>
 </form>
 </body>
